@@ -82,7 +82,6 @@ export default function About() {
           ></iframe>
         </div>
       </div>
-      <Royaa />
     </>
   );
 }
