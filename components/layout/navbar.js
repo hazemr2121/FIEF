@@ -12,7 +12,7 @@ const Navbar = () => {
             <Logo />
             <ul className="hidden md:flex gap-x-6 text-white flex-row-reverse">
               <li>
-                <Link href="/about">
+                <Link href="/aqsam">
                   <p>الاقسام</p>
                 </Link>
               </li>
@@ -47,7 +47,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/contacts">
+                <Link href="/about">
                   <p>عن المعهد</p>
                 </Link>
               </li>

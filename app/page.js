@@ -1,11 +1,13 @@
 import Image from "next/image";
-import CustomContainer from "@/components/Home/container";
+import CustomContainer from "@/components/Home/main-container";
 export default function Home() {
   return (
     <>
       <div>
-        <CustomContainer />
-        <p>Lorem Ipsum is simply dummy text ...</p>
+        <CustomContainer
+          header={"FIEF"}
+          description={"معهد المستقبل العالي للهندسة بالفيوم"}
+        />
       </div>
     </>
   );

@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'Cairo','Lateef', 'Kufi', serif;
+  text-align: right;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
