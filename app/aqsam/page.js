@@ -3,13 +3,13 @@ export default function Aqsam() {
   return (
     <>
       <div>
-        <h1 className="m-5 font-bold text-center text-4xl text-yellow-400">
+        <h1 className="m-5 font-bold text-center text-4xl text-[#0c9188]">
           الأقسام
         </h1>
       </div>
       <div
         className={
-          "grid grid-cols-2 grid-rows-2 gap-x-5 gap-y-5 m-5 place-content-end"
+          "grid grid-cols-2 grid-rows-2 gap-x-5 gap-y-5 m-5 place-content-end text-center justify-items-center items-center"
         }
       >
         <Card
